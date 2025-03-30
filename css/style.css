@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    margin:auto;
+}
+.container{
+    margin:auto;
+    overflow: hidden;
+}
+#main-header {
+    background-color: rgb(91, 91, 235);
+    overflow: hidden;
+}
+#main-header .info {
+    color:white;
+    float:left;
+    margin:10px 0 20px 50px;
+    box-sizing: border-box;
+}
+#main-header .img{
+    padding:5px;
+    border:2px solid white;
+    margin: 20px;
+    float:right;
+    box-sizing:border-box;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.about {
+    background-color: gainsboro;
+    padding:10px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100px;
+}
+#p1{
+    font-size: 11px;
+    float:right;
+    margin-right: 200px;
+    box-sizing:border-box;
+}
+#p1 a{
+    text-decoration: none;
+}
+#p2{
+    font-size: 11px;
+    float:left;
+    margin-left: 50px;
+    box-sizing:border-box;
+}
+.main{
+    padding:10px;
+    margin-left:50px;
+    line-height: 1.2em;
+}
+
+#p12{
+    font-size: 11px;
+    float:left;
+    width: 50%;
+    padding-right: 10px;
+    box-sizing:border-box;
+}
+#p12 li{
+    list-style: none;
+}
+#p22{
+    font-size: 11px;
+    float:right;
+    width: 50%;
+    border-left: 1px solid black;
+    padding-left: 20px;
+    box-sizing:border-box;
+}
+h5{
+    color:blue;
+}
+
